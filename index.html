@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+
+    <h1>Todo App</h1>
+    <div class="wrapper">
+        <form>
+            <input  id="todo-input" type="text" 
+            placeholder="Hit Your Daily Tasks" autocomplete="off">
+            <button id="add-button">ADD</button>
+        </form>
+        <ul id="todo-list">
+            <li class="todo">
+<input type="checkbox" id="todo-1">
+<label class="custom-checkbox" for="todo-1">
+    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" fill="#E3E3E3" viewBox="0 0 24 24">
+        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19l12-12-1.41-1.41z"/>
+      </svg>
+</label>
+<label for="todo-1" class="todo-text">
+    submit files
+</label>
+<button class="delete-button">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="#E3E3E3" viewBox="0 0 24 24">
+        <path d="M6 19q-.825 0-1.413-.588Q4 17.825 4 17V7h16v10q0 .825-.587 1.412Q18.825 19 18 19Zm12-12H6V5h4.5l1-1h1l1 1H18Zm-2.5 3.5L14 9l-2 2-2-2-1.5 1.5L11 12l-2 2 1.5 1.5 2-2 2 2L15.5 14l-2-2Z"/>
+      </svg> 
+</button>
+            </li>
+            <li class="todo">
+                <input type="checkbox" id="todo-2">
+                <label class="custom-checkbox" for="todo-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" fill="#E3E3E3" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19l12-12-1.41-1.41z"/>
+                      </svg>
+                </label>
+                <label for="todo-2" class="todo-text">
+
+                </label>
+                <button class="delete-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="#E3E3E3" viewBox="0 0 24 24">
+                        <path d="M6 19q-.825 0-1.413-.588Q4 17.825 4 17V7h16v10q0 .825-.587 1.412Q18.825 19 18 19Zm12-12H6V5h4.5l1-1h1l1 1H18Zm-2.5 3.5L14 9l-2 2-2-2-1.5 1.5L11 12l-2 2 1.5 1.5 2-2 2 2L15.5 14l-2-2Z"/>
+                      </svg> 
+                </button>
+                            </li>
+        </ul>
+    </div>
+    </body>
+    </html>
